@@ -1,87 +1,83 @@
-# Inventory-and-supply-chain-Management-Analysis
-Inventory &amp; Supply Chain Management Analysis using Power BI Data-driven analysis of inventory performance, warehouse utilization, transportation cost, lead time, and backorders using an interactive Power BI dashboard
-
 # Inventory and Supply Chain Management Analysis 📦📊
 
-This project focuses on analyzing key **inventory and supply chain performance metrics** using **Power BI**.  
-The goal is to provide actionable insights for better decision-making in inventory control, logistics, and warehouse operations.
+This project presents a **Power BI–based analysis of inventory and supply chain performance**, focusing on operational efficiency, inventory health, and warehouse utilization through interactive dashboards.
 
 ---
 
 ## 📌 Project Objectives
-- Analyze inventory efficiency and turnover
-- Monitor warehouse utilization
-- Identify backorders and order fulfillment issues
-- Study transportation cost across regions and categories
-- Evaluate lead time impact on supply chain performance
+- Measure inventory efficiency using key performance indicators
+- Analyze warehouse utilization and capacity usage
+- Track inventory movement and holding performance
+- Support data-driven decision-making in supply chain operations
 
 ---
 
 ## 🛠 Tools & Technologies
 - **Power BI Desktop**
 - **CSV Dataset**
-- **Data Modeling & DAX**
-- **Interactive Dashboards**
+- **DAX Measures**
+- **Interactive Visualizations**
 
 ---
 
-## 📊 Key KPIs Analyzed
-- **Warehouse Utilization (%)**
-- **Days Sales of Inventory (DSI)**
-- **Inventory Turnover Ratio**
-- **Transportation Cost by Region & Category**
-- **Inventory Levels by Region**
-- **Lead Time by Product Category**
-- **Backorders by Order Status**
-- **Units Sold Trend (Year-wise)**
+## 📊 Key KPIs
+- Warehouse Utilization (%)
+- Days Sales of Inventory (DSI)
+- Inventory Turnover Ratio
+- Transportation Cost by Region and Category
+- Inventory Level by Category and Region
+- Lead Time by Product Category
+- Backorders by Order Status
+- Units Sold Trend (Year-wise)
+
+---
+
+## 🧮 DAX Measures Used
+
+| S. No | Measure Name | DAX Formula |
+|-----|-------------|------------|
+| 1 | **Warehouse Utilization (%)** | `DIVIDE(SUM('Inventory and SupplyChain Dataset'[Inventory Level]), SUM('Inventory and SupplyChain Dataset'[Warehouse Capacity])) * 100` |
+| 2 | **Days Sales of Inventory (DSI)** | `DIVIDE(SUM('Inventory and SupplyChain Dataset'[Inventory Level]), SUM('Inventory and SupplyChain Dataset'[Cost of Goods Sold])) * 365` |
+| 3 | **Inventory Turnover Ratio** | `DIVIDE(SUM('Inventory and SupplyChain Dataset'[Cost of Goods Sold]), SUM('Inventory and SupplyChain Dataset'[Average Inventory]))` |
 
 ---
 
 ## 📈 Dashboard Insights
-- Warehouse utilization is significantly below optimal levels, indicating unused capacity.
-- Inventory turnover highlights efficiency differences across product categories.
-- Backorders are highest in fulfilled orders, signaling supply-demand mismatches.
-- Transportation costs vary notably by region and category.
-- Lead times are relatively consistent but impact inventory availability.
+- Warehouse utilization is below optimal capacity, indicating scope for space optimization.
+- Inventory turnover varies across categories, highlighting efficiency differences.
+- DSI reflects inventory holding patterns and potential overstocking areas.
+- Regional analysis shows uneven inventory distribution and cost impact.
 
 ---
 
-## 📂 Dataset Information
-The dataset contains structured information related to:
+## 📂 Dataset Overview
+The dataset includes:
+- Inventory levels
+- Warehouse capacity
+- Cost of goods sold (COGS)
+- Average inventory
 - Product categories
 - Regions
-- Inventory levels
-- Units sold
-- Transportation cost
-- Lead time
-- Order status
+- Order status and lead time
 
 ---
 
 ## 🚀 How to Use
-1. Download the `.pbix` file
-2. Open using **Power BI Desktop**
-3. Interact with slicers (Region, Category)
-4. Explore insights through visuals and KPIs
+1. Download the Power BI `.pbix` file
+2. Open it using **Power BI Desktop**
+3. Use slicers to filter by **Region** and **Category**
+4. Analyze KPIs and trends through interactive visuals
 
 ---
 
-## 🎯 Use Cases
+## 🎯 Applications
 - Inventory Optimization
-- Supply Chain Performance Monitoring
-- Operations & Logistics Analysis
-- Academic & Mini-Project Reference
-- Business Intelligence Practice
+- Supply Chain Performance Analysis
+- Warehouse Capacity Planning
+- Operations & Logistics Analytics
+- Academic and Mini Project Reference
 
 ---
 
-## 👤 Author
-**Siddharth Ramanath Kaulagi**  
-Industrial Engineering | Supply Chain & Operations Analytics  
-📧 Email: *Add your email here*  
-🌐 Portfolio: *Add your portfolio / GitHub link*
-
----
-
-## ⭐ If you like this project
-Don’t forget to **star ⭐ the repository** and share feedback!
+## ⭐ Support
+If you find this project useful, consider giving the repository a **star ⭐**.
