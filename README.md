@@ -1,6 +1,9 @@
 # Inventory and Supply Chain Management Analysis 📦📊
 
 This project presents a **Power BI–based analysis of inventory and supply chain performance**, focusing on operational efficiency, inventory health, and warehouse utilization through interactive dashboards.
+---
+## Project Overview
+ <img width="1310" height="730" alt="image" src="https://github.com/user-attachments/assets/8f0401bb-7683-4ee6-9c35-88514618cc7a" />
 
 ---
 
