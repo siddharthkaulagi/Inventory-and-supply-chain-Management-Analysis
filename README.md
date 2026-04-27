@@ -6,11 +6,7 @@ This project presents a **Power BI–based analysis of inventory and supply chai
  <img width="1310" height="730" alt="image" src="https://github.com/user-attachments/assets/8f0401bb-7683-4ee6-9c35-88514618cc7a" />
 
 ---
-## 📂 Project Files
 
-👉 [Download BI Project (GitHub)](./inventory and supply chain project.pbix)  
-👉 [Download Pdf](./inventory and supply chain project.pdf)
-----
 ## 📌 Project Objectives
 - Measure inventory efficiency using key performance indicators
 - Analyze warehouse utilization and capacity usage
